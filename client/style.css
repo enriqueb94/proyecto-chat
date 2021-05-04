@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.conteiner{
+    width: 50%;
+    margin: 0px auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+#mensajes{
+    border: 1px solid #ccc;
+    padding-bottom: 40px;
+    height: 350px;
+    overflow-y: scroll;
+    box-shadow: 0px 0px 20px #ccc inset;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.mensaje{
+    margin: 20px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background: white;
+}
+
+.form{
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+input[type="text"],
+textarea{
+    width: 100%;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input[type="submit"]{
+    width: 200px;
+    padding: 20px;
+    float: right;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.titulo h1{
+    margin-bottom: 20px;
+}
